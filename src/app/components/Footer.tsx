@@ -127,9 +127,9 @@ const footerBlocks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-green-900 text-gray-700 dark:text-gray-300">
+    <footer className="bg-black text-gray-700 dark:text-gray-300 rounded-t-3xl border-t-1 border-t-white dark:border-t-white">
         <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
-            <div className="border-t border-t-white dark:border-t-white py-16 md:py-20 flex flex-col lg:flex-row gap-14 gap-y-16">
+            <div className="py-16 md:py-20 flex flex-col lg:flex-row gap-14 gap-y-16">
                 <nav className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-10">
                     {
                         footerBlocks.map(
@@ -141,7 +141,7 @@ export default function Footer() {
                 </nav>
             </div>
         </div>
-        <div className="py-3 bg-green-800 dark:bg-green-800">
+        <div className="py-3 bg-black">
             <div className="max-w-3xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5 flex justify-center text-center">
                 <p> © 2025 ZAHRADNICTVÍ s.r.o. Všechna práva vyhrazena </p>
             </div>
