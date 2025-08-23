@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zahradnictví Rakovník - Profesionální péče o vaši zahradu",
+  title: "ZAHRADNICTVÍ s.r.o.",
   description: "Zahradnictví v Rakovníku nabízí široký sortiment rostlin, zahradní techniky a profesionální poradenství. Navštivte nás v Bezděkově 1037.",
   keywords: "zahradnictví, rakovník, rostliny, zahrada, květiny, stromy, keře",
   authors: [{ name: "Zahradnictví Rakovník s.r.o." }],

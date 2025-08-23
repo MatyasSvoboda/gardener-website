@@ -36,10 +36,10 @@ export default function Hero() {
                 </div>
                 <div className="space-y-4 text-left">
                     <h2 className="text-gray-900 dark:text-white font-semibold text-3xl">
-                        +20 Projects
+                        +20 Značek
                     </h2>
                     <p className="text-gray-700 dark:text-gray-300">
-                        Achieved
+                        Na Vaši zahradu
                     </p>
                 </div>
             </div>

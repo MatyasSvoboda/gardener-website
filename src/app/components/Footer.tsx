@@ -57,22 +57,22 @@ const footerBlocks = [
         {
             id: 1,
             text: "O nás",
-            link: "#"
+            link: "#about"
         },
         {
             id: 2,
             text: "Naše nabídka",
-            link: "#"
+            link: "#offer"
         },
         {
             id: 3,
             text: "Partneři",
-            link: "#"
+            link: "#collaboration"
         },
         {
             id: 4,
             text: "Kontakty",
-            link: "#"
+            link: "#contact"
         },
     ]
 },
@@ -103,23 +103,8 @@ const footerBlocks = [
     items: [
         {
             id: 1,
-            text: "Blog",
-            link: "#"
-        },
-        {
-            id: 2,
-            text: "Privacy",
-            link: "#"
-        },
-        {
-            id: 3,
-            text: "Terms",
-            link: "#"
-        },
-        {
-            id: 4,
-            text: "FAQ",
-            link: "#"
+            text: "Po – Pá, 9-12:30, 13:30-15:30 So, 8-11",
+            link: ""
         },
     ]
 },
@@ -127,7 +112,7 @@ const footerBlocks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-gray-700 dark:text-gray-300 rounded-t-3xl border-t-1 border-t-white dark:border-t-white">
+    <footer className="bg-black text-gray-700 dark:text-gray-300 rounded-t-3xl border-t-1 border-t-gray-300 dark:border-t-gray-300">
         <div className="max-w-7xl mx-auto px-5 sm:px-10 md:px-12 lg:px-5">
             <div className="py-16 md:py-20 flex flex-col lg:flex-row gap-14 gap-y-16">
                 <nav className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-10">
